@@ -10,7 +10,7 @@ WORKDIR=$(pwd)
 
 cd /opt/ANDRAX/w3af
 
-python2 -m venv w3afenv
+python2 -m virtualenv w3afenv
 
 source /opt/ANDRAX/w3af/w3afenv/bin/activate
 
